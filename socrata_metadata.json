@@ -1,0 +1,4348 @@
+{
+  "id" : "bcnq-qi2z",
+  "name" : "Cook County Assessor's Residential Property Characteristics",
+  "attribution" : "Cook County Assessor's Office",
+  "averageRating" : 0,
+  "category" : "Property & Taxation",
+  "createdAt" : 1555014631,
+  "description" : "Assessment dataset used by the Cook County Assessor in their Computer Assisted Mass Appraisal (CAMA) system used to assess residential properties in Northern Triennial Townships. This dataset contains property information for every residential PIN in the northern triennial townships where class is within a specified list of classes. For disclaimers, see dataset narrative at https://datacatalog.cookcountyil.gov/stories/s/p2kt-hk36",
+  "displayType" : "table",
+  "downloadCount" : 897,
+  "hideFromCatalog" : false,
+  "hideFromDataJson" : false,
+  "indexUpdatedAt" : 1568066015,
+  "newBackend" : true,
+  "numberOfComments" : 0,
+  "oid" : 32329953,
+  "provenance" : "official",
+  "publicationAppendEnabled" : false,
+  "publicationDate" : 1568066011,
+  "publicationGroup" : 16100068,
+  "publicationStage" : "published",
+  "rowsUpdatedAt" : 1580248461,
+  "rowsUpdatedBy" : "s6b5-uz7b",
+  "tableId" : 16504142,
+  "totalTimesRated" : 0,
+  "viewCount" : 6521,
+  "viewLastModified" : 1582043893,
+  "viewType" : "tabular",
+  "approvals" : [ {
+    "reviewedAt" : 1555452048,
+    "reviewedAutomatically" : true,
+    "state" : "approved",
+    "submissionId" : 1171720,
+    "submissionObject" : "public_audience_request",
+    "submissionOutcome" : "change_audience",
+    "submittedAt" : 1555452048,
+    "workflowId" : 2031,
+    "submissionDetails" : {
+      "permissionType" : "READ"
+    },
+    "submissionOutcomeApplication" : {
+      "failureCount" : 0,
+      "status" : "success"
+    },
+    "submitter" : {
+      "id" : "s6b5-uz7b",
+      "displayName" : "Cook County Assessor's Office Data & Modeling Department"
+    }
+  } ],
+  "columns" : [ {
+    "id" : 427593736,
+    "name" : "PIN",
+    "dataTypeName" : "text",
+    "description" : "Unique Permanent Identification Number for each property. All PINs are 14 digits: 2 digits for area + 2 digits for sub area + 2 digits for block + 2 digits for parcel + 4 digits for the multicode",
+    "fieldName" : "pin",
+    "position" : 1,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129028,
+    "cachedContents" : {
+      "largest" : "33323020150000",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "06062000700000",
+        "count" : "92"
+      }, {
+        "item" : "06062000790000",
+        "count" : "84"
+      }, {
+        "item" : "04274160230000",
+        "count" : "42"
+      }, {
+        "item" : "17293090540000",
+        "count" : "20"
+      }, {
+        "item" : "04274280040000",
+        "count" : "18"
+      }, {
+        "item" : "06062000640000",
+        "count" : "18"
+      }, {
+        "item" : "04274280020000",
+        "count" : "16"
+      }, {
+        "item" : "16132010040000",
+        "count" : "13"
+      }, {
+        "item" : "06062000770000",
+        "count" : "12"
+      }, {
+        "item" : "10134130120000",
+        "count" : "12"
+      }, {
+        "item" : "13312050690000",
+        "count" : "12"
+      }, {
+        "item" : "04351240090000",
+        "count" : "12"
+      }, {
+        "item" : "17333050400000",
+        "count" : "12"
+      }, {
+        "item" : "05331050080000",
+        "count" : "10"
+      }, {
+        "item" : "06184000630000",
+        "count" : "10"
+      }, {
+        "item" : "05193241000000",
+        "count" : "10"
+      }, {
+        "item" : "16364050790000",
+        "count" : "10"
+      }, {
+        "item" : "21301040300000",
+        "count" : "10"
+      }, {
+        "item" : "27174040460000",
+        "count" : "10"
+      }, {
+        "item" : "18354071090000",
+        "count" : "9"
+      } ],
+      "smallest" : "01011000040000",
+      "cardinality" : "1576252"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593737,
+    "name" : "Property Class",
+    "dataTypeName" : "number",
+    "description" : "Property class. For a list of property classes, see https://www.cookcountyassessor.com/assets/forms/classcode.pdf",
+    "fieldName" : "class",
+    "position" : 2,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129022,
+    "cachedContents" : {
+      "largest" : "299",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "299",
+        "count" : "561198"
+      }, {
+        "item" : "203",
+        "count" : "436194"
+      }, {
+        "item" : "211",
+        "count" : "164337"
+      }, {
+        "item" : "278",
+        "count" : "139913"
+      }, {
+        "item" : "202",
+        "count" : "131413"
+      }, {
+        "item" : "234",
+        "count" : "130692"
+      }, {
+        "item" : "205",
+        "count" : "87806"
+      }, {
+        "item" : "295",
+        "count" : "85629"
+      }, {
+        "item" : "204",
+        "count" : "71949"
+      }, {
+        "item" : "206",
+        "count" : "47601"
+      }, {
+        "item" : "207",
+        "count" : "40589"
+      }, {
+        "item" : "241",
+        "count" : "31431"
+      }, {
+        "item" : "208",
+        "count" : "17913"
+      }, {
+        "item" : "212",
+        "count" : "14929"
+      }, {
+        "item" : "210",
+        "count" : "14124"
+      }, {
+        "item" : "209",
+        "count" : "10032"
+      }, {
+        "item" : "201",
+        "count" : "9258"
+      }, {
+        "item" : "200",
+        "count" : "100"
+      } ],
+      "smallest" : "200",
+      "cardinality" : "18"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593738,
+    "name" : "Tax Year",
+    "dataTypeName" : "number",
+    "description" : "Tax year of sale. Tax year referrs to the year in which taxes due. Taxes are billed a year in arrears. If a sale ocurred in calendar year 2018, it will be in tax year 2019.",
+    "fieldName" : "tax_year",
+    "position" : 3,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129030,
+    "cachedContents" : {
+      "largest" : "2019",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "2019",
+        "count" : "1583785"
+      }, {
+        "item" : "2018",
+        "count" : "411323"
+      } ],
+      "smallest" : "2018",
+      "cardinality" : "2"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  }, {
+    "id" : 427593739,
+    "name" : "Neighborhood Code",
+    "dataTypeName" : "number",
+    "description" : "Neighborhood code as assigned by the Assessment office. An interactive map is available at https://maps.cookcountyil.gov/cookviewer/",
+    "fieldName" : "nbhd",
+    "position" : 4,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129023,
+    "cachedContents" : {
+      "largest" : "999",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "30",
+        "count" : "110964"
+      }, {
+        "item" : "10",
+        "count" : "92851"
+      }, {
+        "item" : "70",
+        "count" : "71885"
+      }, {
+        "item" : "50",
+        "count" : "71720"
+      }, {
+        "item" : "31",
+        "count" : "70803"
+      }, {
+        "item" : "80",
+        "count" : "68799"
+      }, {
+        "item" : "40",
+        "count" : "61325"
+      }, {
+        "item" : "11",
+        "count" : "59680"
+      }, {
+        "item" : "20",
+        "count" : "55846"
+      }, {
+        "item" : "60",
+        "count" : "54603"
+      }, {
+        "item" : "22",
+        "count" : "51621"
+      }, {
+        "item" : "12",
+        "count" : "48860"
+      }, {
+        "item" : "81",
+        "count" : "44742"
+      }, {
+        "item" : "120",
+        "count" : "40654"
+      }, {
+        "item" : "150",
+        "count" : "38036"
+      }, {
+        "item" : "100",
+        "count" : "36028"
+      }, {
+        "item" : "13",
+        "count" : "34539"
+      }, {
+        "item" : "90",
+        "count" : "29574"
+      }, {
+        "item" : "51",
+        "count" : "27987"
+      }, {
+        "item" : "101",
+        "count" : "27701"
+      } ],
+      "smallest" : "10",
+      "cardinality" : "199"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593740,
+    "name" : "Land Square Feet",
+    "dataTypeName" : "number",
+    "description" : "Square feet of the land (not just the building) of the property. Note that land is divided into 'plots' and 'parcels' - this field applies to parcels, identified by PIN",
+    "fieldName" : "hd_sf",
+    "position" : 5,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129040,
+    "cachedContents" : {
+      "largest" : "7753680",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3125",
+        "count" : "60391"
+      }, {
+        "item" : "3750",
+        "count" : "52727"
+      }, {
+        "item" : "3780",
+        "count" : "25820"
+      }, {
+        "item" : "3720",
+        "count" : "21351"
+      }, {
+        "item" : "3150",
+        "count" : "18035"
+      }, {
+        "item" : "6250",
+        "count" : "17572"
+      }, {
+        "item" : "3100",
+        "count" : "16952"
+      }, {
+        "item" : "7500",
+        "count" : "15778"
+      }, {
+        "item" : "6600",
+        "count" : "15267"
+      }, {
+        "item" : "3000",
+        "count" : "14255"
+      }, {
+        "item" : "5000",
+        "count" : "13070"
+      }, {
+        "item" : "4375",
+        "count" : "8379"
+      }, {
+        "item" : "4125",
+        "count" : "7994"
+      }, {
+        "item" : "4687",
+        "count" : "7921"
+      }, {
+        "item" : "3690",
+        "count" : "7874"
+      }, {
+        "item" : "6650",
+        "count" : "7588"
+      }, {
+        "item" : "7200",
+        "count" : "7251"
+      }, {
+        "item" : "7800",
+        "count" : "7101"
+      }, {
+        "item" : "8750",
+        "count" : "7030"
+      }, {
+        "item" : "4960",
+        "count" : "6779"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "34169"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593741,
+    "name" : "Town Code",
+    "dataTypeName" : "number",
+    "description" : "Township code as assigned by the Assessment office. An interactive map is available at https://maps.cookcountyil.gov/cookviewer/",
+    "fieldName" : "town_code",
+    "position" : 6,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129014,
+    "cachedContents" : {
+      "largest" : "77",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "72",
+        "count" : "151861"
+      }, {
+        "item" : "71",
+        "count" : "139753"
+      }, {
+        "item" : "77",
+        "count" : "112670"
+      }, {
+        "item" : "38",
+        "count" : "111341"
+      }, {
+        "item" : "22",
+        "count" : "97889"
+      }, {
+        "item" : "73",
+        "count" : "92470"
+      }, {
+        "item" : "35",
+        "count" : "88665"
+      }, {
+        "item" : "70",
+        "count" : "82673"
+      }, {
+        "item" : "24",
+        "count" : "82146"
+      }, {
+        "item" : "29",
+        "count" : "80601"
+      }, {
+        "item" : "74",
+        "count" : "71093"
+      }, {
+        "item" : "25",
+        "count" : "65521"
+      }, {
+        "item" : "18",
+        "count" : "63240"
+      }, {
+        "item" : "76",
+        "count" : "60728"
+      }, {
+        "item" : "37",
+        "count" : "60075"
+      }, {
+        "item" : "16",
+        "count" : "58389"
+      }, {
+        "item" : "20",
+        "count" : "57156"
+      }, {
+        "item" : "39",
+        "count" : "57069"
+      }, {
+        "item" : "31",
+        "count" : "48072"
+      }, {
+        "item" : "17",
+        "count" : "44716"
+      } ],
+      "smallest" : "10",
+      "cardinality" : "38"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593742,
+    "name" : "Type of Residence",
+    "dataTypeName" : "number",
+    "description" : "Type of residence - 1 = one story, 2 = two-story, 3 = three-story or higher, 4 = split level, 5 = 1.5 story, 6 = 1.6 story, 7 = 1.7 story , 8 = 1.8 story , 9 =  1.9 story (Note: residences with 1.5 - 1.9 stories are one story and have partial livable attics and are classified based on the square footage of the attic compared to the first floor of the house. So, 1.5 story houses have an attic that is 50% of the area of the first floor, 1.6 story houses are 60%, 1.7 are 70%, etc. However, what is recorded on the field card differs from what is in the database. All 1.5 - 1.9 story houses are coded as 5) ",
+    "fieldName" : "type_resd",
+    "position" : 7,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129034,
+    "cachedContents" : {
+      "largest" : "9",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "2",
+        "count" : "552786"
+      }, {
+        "item" : "1",
+        "count" : "540166"
+      }, {
+        "item" : "4",
+        "count" : "130510"
+      }, {
+        "item" : "5",
+        "count" : "130080"
+      }, {
+        "item" : "3",
+        "count" : "39398"
+      }, {
+        "item" : "7",
+        "count" : "39"
+      }, {
+        "item" : "8",
+        "count" : "33"
+      }, {
+        "item" : "6",
+        "count" : "23"
+      }, {
+        "item" : "9",
+        "count" : "18"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "9"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593743,
+    "name" : "Apartments",
+    "dataTypeName" : "number",
+    "description" : "Number of apartments in the building - 2 = Two,  3 = Three, 4 = Four, 5 = Five, 6 = Six, 0 = None",
+    "fieldName" : "apts",
+    "position" : 8,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129001,
+    "cachedContents" : {
+      "largest" : "9",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1225156"
+      }, {
+        "item" : "2",
+        "count" : "98871"
+      }, {
+        "item" : "3",
+        "count" : "36626"
+      }, {
+        "item" : "4",
+        "count" : "15621"
+      }, {
+        "item" : "6",
+        "count" : "12984"
+      }, {
+        "item" : "5",
+        "count" : "3391"
+      }, {
+        "item" : "-5",
+        "count" : "436"
+      }, {
+        "item" : "8",
+        "count" : "5"
+      }, {
+        "item" : "9",
+        "count" : "1"
+      } ],
+      "smallest" : "-5",
+      "cardinality" : "9"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593744,
+    "name" : "Wall Material",
+    "dataTypeName" : "number",
+    "description" : "Exterior wall material - 1=Wood, 2=Masonry, 3=Wood&Masonry, 4=Stucco",
+    "fieldName" : "ext_wall",
+    "position" : 9,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129054,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "2",
+        "count" : "571285"
+      }, {
+        "item" : "1",
+        "count" : "447881"
+      }, {
+        "item" : "3",
+        "count" : "352329"
+      }, {
+        "item" : "4",
+        "count" : "21558"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593745,
+    "name" : "Roof Material",
+    "dataTypeName" : "number",
+    "description" : "Roof construction material. 1 = Shingle/Asphalt, 2 = Tar & Gravel, 3 = Slate, 4 = Shake, 5 = Tile, 6 = Other",
+    "fieldName" : "roof_cnst",
+    "position" : 10,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129018,
+    "cachedContents" : {
+      "largest" : "6",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1263767"
+      }, {
+        "item" : "2",
+        "count" : "93705"
+      }, {
+        "item" : "4",
+        "count" : "14879"
+      }, {
+        "item" : "5",
+        "count" : "7996"
+      }, {
+        "item" : "6",
+        "count" : "6936"
+      }, {
+        "item" : "3",
+        "count" : "5770"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593746,
+    "name" : "Rooms",
+    "dataTypeName" : "number",
+    "description" : "Number of rooms in the property (excluding baths). Not to be confused with bedrooms.",
+    "fieldName" : "rooms",
+    "position" : 11,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129031,
+    "cachedContents" : {
+      "largest" : "320",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "6",
+        "count" : "355237"
+      }, {
+        "item" : "5",
+        "count" : "297086"
+      }, {
+        "item" : "7",
+        "count" : "220519"
+      }, {
+        "item" : "8",
+        "count" : "179319"
+      }, {
+        "item" : "4",
+        "count" : "94048"
+      }, {
+        "item" : "9",
+        "count" : "77791"
+      }, {
+        "item" : "10",
+        "count" : "54773"
+      }, {
+        "item" : "12",
+        "count" : "29025"
+      }, {
+        "item" : "11",
+        "count" : "19413"
+      }, {
+        "item" : "15",
+        "count" : "8885"
+      }, {
+        "item" : "3",
+        "count" : "8490"
+      }, {
+        "item" : "14",
+        "count" : "7537"
+      }, {
+        "item" : "18",
+        "count" : "7280"
+      }, {
+        "item" : "16",
+        "count" : "7090"
+      }, {
+        "item" : "13",
+        "count" : "5562"
+      }, {
+        "item" : "24",
+        "count" : "4264"
+      }, {
+        "item" : "20",
+        "count" : "3582"
+      }, {
+        "item" : "30",
+        "count" : "2557"
+      }, {
+        "item" : "17",
+        "count" : "1862"
+      }, {
+        "item" : "21",
+        "count" : "1620"
+      } ],
+      "smallest" : "2",
+      "cardinality" : "53"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593747,
+    "name" : "Bedrooms",
+    "dataTypeName" : "number",
+    "description" : "Number of bedrooms in the property, defined based on building squarefoot and the judgement of the person in the field. ",
+    "fieldName" : "beds",
+    "position" : 12,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129052,
+    "cachedContents" : {
+      "largest" : "90",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "3",
+        "count" : "634305"
+      }, {
+        "item" : "4",
+        "count" : "388124"
+      }, {
+        "item" : "2",
+        "count" : "192795"
+      }, {
+        "item" : "5",
+        "count" : "79508"
+      }, {
+        "item" : "6",
+        "count" : "55409"
+      }, {
+        "item" : "8",
+        "count" : "12439"
+      }, {
+        "item" : "9",
+        "count" : "7454"
+      }, {
+        "item" : "12",
+        "count" : "6849"
+      }, {
+        "item" : "7",
+        "count" : "6263"
+      }, {
+        "item" : "1",
+        "count" : "3867"
+      }, {
+        "item" : "10",
+        "count" : "2423"
+      }, {
+        "item" : "11",
+        "count" : "1497"
+      }, {
+        "item" : "18",
+        "count" : "1213"
+      }, {
+        "item" : "15",
+        "count" : "296"
+      }, {
+        "item" : "14",
+        "count" : "214"
+      }, {
+        "item" : "16",
+        "count" : "140"
+      }, {
+        "item" : "13",
+        "count" : "115"
+      }, {
+        "item" : "24",
+        "count" : "52"
+      }, {
+        "item" : "20",
+        "count" : "42"
+      }, {
+        "item" : "19",
+        "count" : "16"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "29"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593748,
+    "name" : "Basement",
+    "dataTypeName" : "number",
+    "description" : "Basement type - 1 = Full, 2 = Slab, 3 = Partial, 4 = Crawl ",
+    "fieldName" : "bsmt",
+    "position" : 13,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129009,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "1",
+        "count" : "802554"
+      }, {
+        "item" : "3",
+        "count" : "335929"
+      }, {
+        "item" : "2",
+        "count" : "173863"
+      }, {
+        "item" : "4",
+        "count" : "80707"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593749,
+    "name" : "Basement Finish",
+    "dataTypeName" : "number",
+    "description" : "Basement finish -  1 = Formal rec room; 2 = Apartment; 3 = Unfinished",
+    "fieldName" : "bsmt_fin",
+    "position" : 14,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129059,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1393050",
+      "null" : "602058",
+      "top" : [ {
+        "item" : "3",
+        "count" : "943088"
+      }, {
+        "item" : "1",
+        "count" : "425857"
+      }, {
+        "item" : "2",
+        "count" : "24105"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593750,
+    "name" : "Central Heating",
+    "dataTypeName" : "number",
+    "description" : "Central heating type  - 1 = Warm air, 2 = Hot water steam, 3 = Electric, 4 = Other",
+    "fieldName" : "heat",
+    "position" : 15,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129020,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1193596"
+      }, {
+        "item" : "2",
+        "count" : "199457"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593751,
+    "name" : "Other Heating",
+    "dataTypeName" : "number",
+    "description" : "Other heating type - 1 = Floor furnace, 2 = Unit heater, 3 = Stove, 4 = Solar, 5 = none",
+    "fieldName" : "oheat",
+    "position" : 16,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129012,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "5",
+        "count" : "1350200"
+      }, {
+        "item" : "2",
+        "count" : "42891"
+      } ],
+      "smallest" : "2",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593752,
+    "name" : "Central Air",
+    "dataTypeName" : "number",
+    "description" : "Is central airconditioning present? - 1 = yes, 2 = no",
+    "fieldName" : "air",
+    "position" : 17,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129016,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "1",
+        "count" : "723431"
+      }, {
+        "item" : "0",
+        "count" : "669622"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593753,
+    "name" : "Fireplaces",
+    "dataTypeName" : "number",
+    "description" : "Number of fireplaces, counted as the number of flues one can see from the outside of the building.",
+    "fieldName" : "frpl",
+    "position" : 18,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129002,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "1",
+        "count" : "916047"
+      }, {
+        "item" : "2",
+        "count" : "320878"
+      }, {
+        "item" : "0",
+        "count" : "156166"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593754,
+    "name" : "Attic Type",
+    "dataTypeName" : "number",
+    "description" : "Type of attic - 1 = Full, 2 = partial, 3 = none",
+    "fieldName" : "attic_type",
+    "position" : 19,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129050,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "3",
+        "count" : "961414"
+      }, {
+        "item" : "1",
+        "count" : "242798"
+      }, {
+        "item" : "2",
+        "count" : "188841"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593755,
+    "name" : "Attic Finish",
+    "dataTypeName" : "number",
+    "description" : "Finish of attic - 1 = Living area, 2 = Apartment, 3 = unfinished",
+    "fieldName" : "attic_fnsh",
+    "position" : 20,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129005,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1661715",
+      "null" : "333393",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1230003"
+      }, {
+        "item" : "3",
+        "count" : "259763"
+      }, {
+        "item" : "1",
+        "count" : "163961"
+      }, {
+        "item" : "2",
+        "count" : "7988"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593756,
+    "name" : "Half Baths",
+    "dataTypeName" : "number",
+    "description" : "Number of half baths, defined as bathrooms without a shower or bathtub. ",
+    "fieldName" : "hbath",
+    "position" : 21,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129051,
+    "cachedContents" : {
+      "largest" : "9",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "731535"
+      }, {
+        "item" : "1",
+        "count" : "623460"
+      }, {
+        "item" : "2",
+        "count" : "33459"
+      }, {
+        "item" : "3",
+        "count" : "3190"
+      }, {
+        "item" : "4",
+        "count" : "708"
+      }, {
+        "item" : "6",
+        "count" : "387"
+      }, {
+        "item" : "5",
+        "count" : "329"
+      }, {
+        "item" : "7",
+        "count" : "10"
+      }, {
+        "item" : "8",
+        "count" : "10"
+      }, {
+        "item" : "9",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "10"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593757,
+    "name" : "Design Plan",
+    "dataTypeName" : "number",
+    "description" : "Plan of Design - 1 = architect, 2 = stock plan",
+    "fieldName" : "tp_plan",
+    "position" : 22,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129007,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "2",
+        "count" : "998139"
+      }, {
+        "item" : "0",
+        "count" : "364620"
+      }, {
+        "item" : "1",
+        "count" : "30332"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593758,
+    "name" : "Cathedral Ceiling",
+    "dataTypeName" : "number",
+    "description" : "Cathedral Ceiling - 1 = yes, 2 = No. (Note: the column name comes from a variable that is no longer used, but the column name was not changed to reflect Cathedral Ceiling)",
+    "fieldName" : "tp_dsgn",
+    "position" : 23,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129043,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "724701"
+      }, {
+        "item" : "2",
+        "count" : "612327"
+      }, {
+        "item" : "1",
+        "count" : "56063"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593759,
+    "name" : "Construction Quality",
+    "dataTypeName" : "number",
+    "description" : "Construction quality - 1 = Deluxe, 2 = Average, 3 = Poor (There is one 4 in this dataset, but no 3. In general, this column is not useful for analytical purposes)",
+    "fieldName" : "cnst_qlty",
+    "position" : 24,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129027,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "2",
+        "count" : "1373761"
+      }, {
+        "item" : "1",
+        "count" : "18274"
+      }, {
+        "item" : "4",
+        "count" : "1017"
+      }, {
+        "item" : "3",
+        "count" : "1"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593760,
+    "name" : "Renovation",
+    "dataTypeName" : "number",
+    "description" : "Construction renovation - 1 = yes, 2= no",
+    "fieldName" : "renovation",
+    "position" : 25,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129036,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "2164",
+      "null" : "1992944",
+      "top" : [ {
+        "item" : "1",
+        "count" : "2041"
+      }, {
+        "item" : "2",
+        "count" : "123"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593761,
+    "name" : "Site Desireability",
+    "dataTypeName" : "number",
+    "description" : "Site desireability - 1 = Beneficial to Value, 2 = Not relevant to Value, 3 = Detracts from Value. This field lack sufficient variation to be useful for modeling.",
+    "fieldName" : "site",
+    "position" : 26,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129042,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "2",
+        "count" : "1383432"
+      }, {
+        "item" : "1",
+        "count" : "7369"
+      }, {
+        "item" : "3",
+        "count" : "2252"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593762,
+    "name" : "Garage 1 Size",
+    "dataTypeName" : "number",
+    "description" : "Garage 1 size - 1 = 1 car, 2 = 1.5 car, 3 = 2 car, 4 = 2.5 cars, 5 = 3 cars, 6 = 3.5 cars, 7 = none, 8 = 4 cars",
+    "fieldName" : "gar1_size",
+    "position" : 27,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129032,
+    "cachedContents" : {
+      "largest" : "16",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "3",
+        "count" : "772368"
+      }, {
+        "item" : "0",
+        "count" : "215906"
+      }, {
+        "item" : "1",
+        "count" : "201022"
+      }, {
+        "item" : "2",
+        "count" : "76534"
+      }, {
+        "item" : "4",
+        "count" : "64362"
+      }, {
+        "item" : "5",
+        "count" : "49220"
+      }, {
+        "item" : "7",
+        "count" : "7395"
+      }, {
+        "item" : "6",
+        "count" : "4984"
+      }, {
+        "item" : "10",
+        "count" : "971"
+      }, {
+        "item" : "11",
+        "count" : "171"
+      }, {
+        "item" : "12",
+        "count" : "87"
+      }, {
+        "item" : "9",
+        "count" : "43"
+      }, {
+        "item" : "15",
+        "count" : "12"
+      }, {
+        "item" : "13",
+        "count" : "9"
+      }, {
+        "item" : "16",
+        "count" : "4"
+      }, {
+        "item" : "14",
+        "count" : "3"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "16"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593763,
+    "name" : "Garage 1 Material",
+    "dataTypeName" : "number",
+    "description" : "Garage 1 construction -  1 = Frame, 2 = Masonry, 3= Frame/Masonry, 4 = Stucco",
+    "fieldName" : "gar1_cnst",
+    "position" : 28,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129015,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393092",
+      "null" : "602016",
+      "top" : [ {
+        "item" : "1",
+        "count" : "790068"
+      }, {
+        "item" : "2",
+        "count" : "299082"
+      }, {
+        "item" : "0",
+        "count" : "215893"
+      }, {
+        "item" : "3",
+        "count" : "83681"
+      }, {
+        "item" : "4",
+        "count" : "4368"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593764,
+    "name" : "Garage 1 Attachment",
+    "dataTypeName" : "number",
+    "description" : "Is Garage 1 attached? 1 = Yes, 2 = No",
+    "fieldName" : "gar1_att",
+    "position" : 29,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129037,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393092",
+      "null" : "602016",
+      "top" : [ {
+        "item" : "2",
+        "count" : "683649"
+      }, {
+        "item" : "1",
+        "count" : "493549"
+      }, {
+        "item" : "0",
+        "count" : "215894"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593765,
+    "name" : "Garage 1 Area",
+    "dataTypeName" : "number",
+    "description" : "Is Garage 1 physically including within the building area? 1 = Yes, 2 = No. If yes, the garage area is subtracted from the building square feet calculation by the field agent. ",
+    "fieldName" : "gar1_area",
+    "position" : 30,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129029,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393092",
+      "null" : "602016",
+      "top" : [ {
+        "item" : "2",
+        "count" : "1037746"
+      }, {
+        "item" : "0",
+        "count" : "215898"
+      }, {
+        "item" : "1",
+        "count" : "139448"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593766,
+    "name" : "Garage 2 Size",
+    "dataTypeName" : "number",
+    "description" : "Garage 2 size - 1 = 1 car, 2 = 1.5 car, 3 = 2 car, 4 = 2.5 cars, 5 = 3 cars, 6 = 3.5 cars, 7 = none, 8 = 4 cars",
+    "fieldName" : "gar2_size",
+    "position" : 31,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129047,
+    "cachedContents" : {
+      "largest" : "7",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "7",
+        "count" : "1392257"
+      }, {
+        "item" : "3",
+        "count" : "353"
+      }, {
+        "item" : "1",
+        "count" : "309"
+      }, {
+        "item" : "2",
+        "count" : "74"
+      }, {
+        "item" : "4",
+        "count" : "51"
+      }, {
+        "item" : "6",
+        "count" : "27"
+      }, {
+        "item" : "5",
+        "count" : "20"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "7"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593767,
+    "name" : "Garage 2 Material",
+    "dataTypeName" : "number",
+    "description" : "Garage 2 construction -  1 = Frame, 2 = Masonry, 3= Frame/Masonry, 4 = Stucco",
+    "fieldName" : "gar2_cnst",
+    "position" : 32,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129026,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1392257"
+      }, {
+        "item" : "1",
+        "count" : "616"
+      }, {
+        "item" : "2",
+        "count" : "203"
+      }, {
+        "item" : "3",
+        "count" : "9"
+      }, {
+        "item" : "4",
+        "count" : "6"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "5"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593768,
+    "name" : "Garage 2 Attachment",
+    "dataTypeName" : "number",
+    "description" : "Is Garage 2 attached? 1 = Yes, 2 = No",
+    "fieldName" : "gar2_att",
+    "position" : 33,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129045,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1392257"
+      }, {
+        "item" : "2",
+        "count" : "608"
+      }, {
+        "item" : "1",
+        "count" : "226"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593769,
+    "name" : "Garage 2 Area",
+    "dataTypeName" : "number",
+    "description" : "Is Garage 2 physically including within the building area? 1 = Yes, 2 = No. If yes, the garage area is subtracted from the building square feet calculation by the field agent. ",
+    "fieldName" : "gar2_area",
+    "position" : 34,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129038,
+    "cachedContents" : {
+      "largest" : "4",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1391403"
+      }, {
+        "item" : "4",
+        "count" : "855"
+      }, {
+        "item" : "2",
+        "count" : "607"
+      }, {
+        "item" : "1",
+        "count" : "226"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593770,
+    "name" : "Porch",
+    "dataTypeName" : "number",
+    "description" : "Enclosed porch - 1 = Frame, 2 = Masonry, 3 = None ",
+    "fieldName" : "porch",
+    "position" : 35,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129039,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3",
+        "count" : "1767801"
+      }, {
+        "item" : "1",
+        "count" : "209401"
+      }, {
+        "item" : "2",
+        "count" : "17906"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593771,
+    "name" : "Other Improvements",
+    "dataTypeName" : "number",
+    "description" : "Other improvements - if not 0, they contain a code. The definitions of these codes are maintained by the field workers. Unfortunately, the way this data is entered makes it impossible to distinguish between a 1 & 2 and a 12, making this field mostly useless.",
+    "fieldName" : "ot_impr",
+    "position" : 36,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129024,
+    "cachedContents" : {
+      "largest" : "93260",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1341530"
+      }, {
+        "item" : "76",
+        "count" : "748"
+      }, {
+        "item" : "192",
+        "count" : "629"
+      }, {
+        "item" : "64",
+        "count" : "572"
+      }, {
+        "item" : "96",
+        "count" : "470"
+      }, {
+        "item" : "128",
+        "count" : "451"
+      }, {
+        "item" : "115",
+        "count" : "445"
+      }, {
+        "item" : "100",
+        "count" : "425"
+      }, {
+        "item" : "92",
+        "count" : "406"
+      }, {
+        "item" : "256",
+        "count" : "397"
+      }, {
+        "item" : "41",
+        "count" : "395"
+      }, {
+        "item" : "505",
+        "count" : "393"
+      }, {
+        "item" : "153",
+        "count" : "389"
+      }, {
+        "item" : "144",
+        "count" : "385"
+      }, {
+        "item" : "150",
+        "count" : "384"
+      }, {
+        "item" : "120",
+        "count" : "382"
+      }, {
+        "item" : "52",
+        "count" : "374"
+      }, {
+        "item" : "45",
+        "count" : "373"
+      }, {
+        "item" : "140",
+        "count" : "348"
+      }, {
+        "item" : "6",
+        "count" : "347"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "1935"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593772,
+    "name" : "Building Square Feet",
+    "dataTypeName" : "number",
+    "description" : "Building square feet, as measured from the exterior of the property",
+    "fieldName" : "bldg_sf",
+    "position" : 37,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129055,
+    "cachedContents" : {
+      "largest" : "24884",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "1200",
+        "count" : "6540"
+      }, {
+        "item" : "1008",
+        "count" : "6200"
+      }, {
+        "item" : "1040",
+        "count" : "5870"
+      }, {
+        "item" : "1080",
+        "count" : "5714"
+      }, {
+        "item" : "960",
+        "count" : "5628"
+      }, {
+        "item" : "1248",
+        "count" : "5340"
+      }, {
+        "item" : "1152",
+        "count" : "5243"
+      }, {
+        "item" : "1056",
+        "count" : "4579"
+      }, {
+        "item" : "1120",
+        "count" : "4157"
+      }, {
+        "item" : "1104",
+        "count" : "4102"
+      }, {
+        "item" : "864",
+        "count" : "4010"
+      }, {
+        "item" : "1176",
+        "count" : "3615"
+      }, {
+        "item" : "1100",
+        "count" : "3390"
+      }, {
+        "item" : "1092",
+        "count" : "3343"
+      }, {
+        "item" : "1000",
+        "count" : "3243"
+      }, {
+        "item" : "1296",
+        "count" : "3200"
+      }, {
+        "item" : "1344",
+        "count" : "3029"
+      }, {
+        "item" : "1440",
+        "count" : "2917"
+      }, {
+        "item" : "1320",
+        "count" : "2851"
+      }, {
+        "item" : "1260",
+        "count" : "2834"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "9153"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593773,
+    "name" : "Repair Condition",
+    "dataTypeName" : "number",
+    "description" : "State of Repair - 1 = Above average, 2 = Average, 3 = Below average",
+    "fieldName" : "repair_cnd",
+    "position" : 38,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129013,
+    "cachedContents" : {
+      "largest" : "3",
+      "non_null" : "1393053",
+      "null" : "602055",
+      "top" : [ {
+        "item" : "2",
+        "count" : "1370862"
+      }, {
+        "item" : "1",
+        "count" : "14926"
+      }, {
+        "item" : "3",
+        "count" : "7265"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593774,
+    "name" : "Multi Code",
+    "dataTypeName" : "number",
+    "description" : "Variable that indicates that more one building exists on the PIN. 2 = one building, 3 = two buildings, etc… through 7 = 6 buildings. ",
+    "fieldName" : "multi_code",
+    "position" : 39,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129049,
+    "cachedContents" : {
+      "largest" : "47",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "2",
+        "count" : "1372913"
+      }, {
+        "item" : "3",
+        "count" : "18803"
+      }, {
+        "item" : "4",
+        "count" : "717"
+      }, {
+        "item" : "5",
+        "count" : "230"
+      }, {
+        "item" : "6",
+        "count" : "98"
+      }, {
+        "item" : "7",
+        "count" : "63"
+      }, {
+        "item" : "8",
+        "count" : "32"
+      }, {
+        "item" : "9",
+        "count" : "25"
+      }, {
+        "item" : "10",
+        "count" : "21"
+      }, {
+        "item" : "11",
+        "count" : "13"
+      }, {
+        "item" : "12",
+        "count" : "11"
+      }, {
+        "item" : "13",
+        "count" : "10"
+      }, {
+        "item" : "14",
+        "count" : "8"
+      }, {
+        "item" : "15",
+        "count" : "7"
+      }, {
+        "item" : "16",
+        "count" : "7"
+      }, {
+        "item" : "17",
+        "count" : "7"
+      }, {
+        "item" : "18",
+        "count" : "7"
+      }, {
+        "item" : "19",
+        "count" : "7"
+      }, {
+        "item" : "20",
+        "count" : "7"
+      }, {
+        "item" : "21",
+        "count" : "7"
+      } ],
+      "smallest" : "2",
+      "cardinality" : "46"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593776,
+    "name" : "Number of Commercial Units",
+    "dataTypeName" : "number",
+    "description" : "Number of commercial units (the vast majority are for properties with class 212).",
+    "fieldName" : "ncu",
+    "position" : 41,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129010,
+    "cachedContents" : {
+      "largest" : "5",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1377701"
+      }, {
+        "item" : "1",
+        "count" : "13007"
+      }, {
+        "item" : "2",
+        "count" : "1859"
+      }, {
+        "item" : "3",
+        "count" : "388"
+      }, {
+        "item" : "4",
+        "count" : "96"
+      }, {
+        "item" : "5",
+        "count" : "40"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "6"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593777,
+    "name" : "Prior Tax Year Market Value Estimate (Land)",
+    "dataTypeName" : "number",
+    "description" : "Board of Review final estimated market value of land from the prior tax year.",
+    "fieldName" : "pri_est_land",
+    "position" : 42,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129006,
+    "cachedContents" : {
+      "largest" : "8017280",
+      "non_null" : "1994736",
+      "null" : "372",
+      "top" : [ {
+        "item" : "37500",
+        "count" : "9126"
+      }, {
+        "item" : "37800",
+        "count" : "9050"
+      }, {
+        "item" : "30000",
+        "count" : "8664"
+      }, {
+        "item" : "20310",
+        "count" : "7976"
+      }, {
+        "item" : "46870",
+        "count" : "6890"
+      }, {
+        "item" : "36710",
+        "count" : "6728"
+      }, {
+        "item" : "54370",
+        "count" : "6594"
+      }, {
+        "item" : "23430",
+        "count" : "5359"
+      }, {
+        "item" : "46500",
+        "count" : "5281"
+      }, {
+        "item" : "31250",
+        "count" : "4814"
+      }, {
+        "item" : "41250",
+        "count" : "4585"
+      }, {
+        "item" : "28120",
+        "count" : "4581"
+      }, {
+        "item" : "47250",
+        "count" : "4454"
+      }, {
+        "item" : "33750",
+        "count" : "4414"
+      }, {
+        "item" : "31870",
+        "count" : "4284"
+      }, {
+        "item" : "60000",
+        "count" : "4061"
+      }, {
+        "item" : "24370",
+        "count" : "4019"
+      }, {
+        "item" : "17180",
+        "count" : "3747"
+      }, {
+        "item" : "50000",
+        "count" : "3639"
+      }, {
+        "item" : "32130",
+        "count" : "3508"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "28112"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "precision" : "0"
+    }
+  }, {
+    "id" : 427593778,
+    "name" : "Prior Tax Year Market Value Estimate (Building)",
+    "dataTypeName" : "number",
+    "description" : "Board of Review final estimated market value of building from the prior tax year.",
+    "fieldName" : "pri_est_bldg",
+    "position" : 43,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129035,
+    "cachedContents" : {
+      "largest" : "26964090",
+      "non_null" : "1994736",
+      "null" : "372",
+      "top" : [ {
+        "item" : "0",
+        "count" : "36431"
+      }, {
+        "item" : "89410",
+        "count" : "1205"
+      }, {
+        "item" : "10",
+        "count" : "1007"
+      }, {
+        "item" : "3180",
+        "count" : "887"
+      }, {
+        "item" : "106510",
+        "count" : "825"
+      }, {
+        "item" : "56490",
+        "count" : "788"
+      }, {
+        "item" : "31000",
+        "count" : "721"
+      }, {
+        "item" : "10140",
+        "count" : "701"
+      }, {
+        "item" : "7070",
+        "count" : "693"
+      }, {
+        "item" : "9780",
+        "count" : "659"
+      }, {
+        "item" : "63790",
+        "count" : "656"
+      }, {
+        "item" : "67670",
+        "count" : "628"
+      }, {
+        "item" : "66570",
+        "count" : "616"
+      }, {
+        "item" : "80530",
+        "count" : "601"
+      }, {
+        "item" : "56540",
+        "count" : "589"
+      }, {
+        "item" : "38210",
+        "count" : "551"
+      }, {
+        "item" : "45820",
+        "count" : "547"
+      }, {
+        "item" : "118970",
+        "count" : "542"
+      }, {
+        "item" : "88700",
+        "count" : "542"
+      }, {
+        "item" : "20",
+        "count" : "537"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "99787"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "precision" : "0"
+    }
+  }, {
+    "id" : 427593779,
+    "name" : "Date of Most Recent Sale",
+    "dataTypeName" : "calendar_date",
+    "description" : "Most recent date of sale, if a sale ocurred in the prior two years.",
+    "fieldName" : "most_recent_sale_date",
+    "position" : 44,
+    "renderTypeName" : "calendar_date",
+    "tableColumnId" : 87214003,
+    "cachedContents" : {
+      "largest" : "2019-09-30T00:00:00.000",
+      "non_null" : "112377",
+      "null" : "1882731",
+      "top" : [ {
+        "item" : "2019-06-10T00:00:00.000",
+        "count" : "662"
+      }, {
+        "item" : "2019-07-17T00:00:00.000",
+        "count" : "640"
+      }, {
+        "item" : "2019-05-13T00:00:00.000",
+        "count" : "611"
+      }, {
+        "item" : "2019-07-05T00:00:00.000",
+        "count" : "594"
+      }, {
+        "item" : "2019-06-06T00:00:00.000",
+        "count" : "583"
+      }, {
+        "item" : "2019-07-24T00:00:00.000",
+        "count" : "582"
+      }, {
+        "item" : "2019-04-08T00:00:00.000",
+        "count" : "574"
+      }, {
+        "item" : "2019-06-11T00:00:00.000",
+        "count" : "551"
+      }, {
+        "item" : "2019-07-08T00:00:00.000",
+        "count" : "549"
+      }, {
+        "item" : "2019-08-28T00:00:00.000",
+        "count" : "547"
+      }, {
+        "item" : "2019-09-23T00:00:00.000",
+        "count" : "544"
+      }, {
+        "item" : "2019-05-15T00:00:00.000",
+        "count" : "543"
+      }, {
+        "item" : "2019-08-15T00:00:00.000",
+        "count" : "537"
+      }, {
+        "item" : "2019-08-20T00:00:00.000",
+        "count" : "536"
+      }, {
+        "item" : "2019-05-29T00:00:00.000",
+        "count" : "534"
+      }, {
+        "item" : "2019-04-10T00:00:00.000",
+        "count" : "532"
+      }, {
+        "item" : "2019-06-07T00:00:00.000",
+        "count" : "529"
+      }, {
+        "item" : "2019-08-14T00:00:00.000",
+        "count" : "527"
+      }, {
+        "item" : "2019-05-06T00:00:00.000",
+        "count" : "522"
+      }, {
+        "item" : "2019-09-05T00:00:00.000",
+        "count" : "521"
+      } ],
+      "smallest" : "2017-01-03T00:00:00.000",
+      "cardinality" : "662"
+    },
+    "format" : {
+      "view" : "date"
+    }
+  }, {
+    "id" : 427593780,
+    "name" : "Deed No.",
+    "dataTypeName" : "text",
+    "description" : "Deed number for sale",
+    "fieldName" : "doc_no",
+    "position" : 45,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79128997,
+    "cachedContents" : {
+      "largest" : "812226002",
+      "non_null" : "112377",
+      "null" : "1882731",
+      "top" : [ {
+        "item" : "1926941002",
+        "count" : "12"
+      }, {
+        "item" : "1907918014",
+        "count" : "12"
+      }, {
+        "item" : "1924101018",
+        "count" : "9"
+      }, {
+        "item" : "1906546149",
+        "count" : "7"
+      }, {
+        "item" : "1907918015",
+        "count" : "6"
+      }, {
+        "item" : "1954422085",
+        "count" : "6"
+      }, {
+        "item" : "1901510094",
+        "count" : "6"
+      }, {
+        "item" : "1923415070",
+        "count" : "6"
+      }, {
+        "item" : "01813408087",
+        "count" : "6"
+      }, {
+        "item" : "1913312097",
+        "count" : "6"
+      }, {
+        "item" : "1907901036",
+        "count" : "6"
+      }, {
+        "item" : "1917642088",
+        "count" : "5"
+      }, {
+        "item" : "01827649005",
+        "count" : "4"
+      }, {
+        "item" : "1910142074",
+        "count" : "4"
+      }, {
+        "item" : "1925934034",
+        "count" : "4"
+      }, {
+        "item" : "01820633410",
+        "count" : "4"
+      }, {
+        "item" : "1909855242",
+        "count" : "4"
+      }, {
+        "item" : "1922046240",
+        "count" : "4"
+      }, {
+        "item" : "01817229322",
+        "count" : "4"
+      }, {
+        "item" : "1923408034",
+        "count" : "4"
+      } ],
+      "smallest" : "01013426018",
+      "cardinality" : "111849"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593781,
+    "name" : "Sale Price",
+    "dataTypeName" : "number",
+    "description" : "Most recent sale price, where available",
+    "fieldName" : "most_recent_sale_price",
+    "position" : 46,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129048,
+    "cachedContents" : {
+      "largest" : "12000000",
+      "non_null" : "112377",
+      "null" : "1882731",
+      "top" : [ {
+        "item" : "1",
+        "count" : "25540"
+      }, {
+        "item" : "250000",
+        "count" : "786"
+      }, {
+        "item" : "225000",
+        "count" : "672"
+      }, {
+        "item" : "200000",
+        "count" : "658"
+      }, {
+        "item" : "175000",
+        "count" : "624"
+      }, {
+        "item" : "275000",
+        "count" : "616"
+      }, {
+        "item" : "215000",
+        "count" : "586"
+      }, {
+        "item" : "220000",
+        "count" : "581"
+      }, {
+        "item" : "180000",
+        "count" : "577"
+      }, {
+        "item" : "235000",
+        "count" : "575"
+      }, {
+        "item" : "300000",
+        "count" : "570"
+      }, {
+        "item" : "165000",
+        "count" : "562"
+      }, {
+        "item" : "350000",
+        "count" : "560"
+      }, {
+        "item" : "260000",
+        "count" : "556"
+      }, {
+        "item" : "240000",
+        "count" : "556"
+      }, {
+        "item" : "190000",
+        "count" : "547"
+      }, {
+        "item" : "150000",
+        "count" : "545"
+      }, {
+        "item" : "230000",
+        "count" : "539"
+      }, {
+        "item" : "270000",
+        "count" : "537"
+      }, {
+        "item" : "185000",
+        "count" : "534"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "7395"
+    },
+    "format" : {
+      "precisionStyle" : "currency",
+      "precision" : "0"
+    }
+  }, {
+    "id" : 427593782,
+    "name" : "Longitude",
+    "dataTypeName" : "text",
+    "description" : "Longitude coordinate of the property's location, as defined by the centroid of the parcel shape in GIS.",
+    "fieldName" : "centroid_x",
+    "position" : 47,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129019,
+    "cachedContents" : {
+      "largest" : "-88.263506100755",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "-87.857720620772",
+        "count" : "1742"
+      }, {
+        "item" : "-87.6469276418442",
+        "count" : "1680"
+      }, {
+        "item" : "-88.0055910927433",
+        "count" : "1492"
+      }, {
+        "item" : "-87.7598154083007",
+        "count" : "1422"
+      }, {
+        "item" : "-87.6127207620667",
+        "count" : "1308"
+      }, {
+        "item" : "-87.634636202831",
+        "count" : "1286"
+      }, {
+        "item" : "-87.9007206941967",
+        "count" : "1184"
+      }, {
+        "item" : "-87.917552934531",
+        "count" : "1176"
+      }, {
+        "item" : "-87.6264304221286",
+        "count" : "1157"
+      }, {
+        "item" : "-87.9435737453431",
+        "count" : "1128"
+      }, {
+        "item" : "-87.6458613223511",
+        "count" : "1127"
+      }, {
+        "item" : "-87.8535125912516",
+        "count" : "1126"
+      }, {
+        "item" : "-87.6166713679163",
+        "count" : "1104"
+      }, {
+        "item" : "-87.8448820413104",
+        "count" : "1004"
+      }, {
+        "item" : "-87.9649085054088",
+        "count" : "998"
+      }, {
+        "item" : "-87.9534782131",
+        "count" : "982"
+      }, {
+        "item" : "-87.7598154137668",
+        "count" : "974"
+      }, {
+        "item" : "-87.6275359701673",
+        "count" : "966"
+      }, {
+        "item" : "-87.6244291321684",
+        "count" : "963"
+      }, {
+        "item" : "-88.0827117947796",
+        "count" : "956"
+      } ],
+      "smallest" : "-87.5248067824485",
+      "cardinality" : "1145226"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593783,
+    "name" : "Latitude",
+    "dataTypeName" : "text",
+    "description" : "Latitude coordinate of the property's location, as defined by the centroid of the parcel shape in GIS.",
+    "fieldName" : "centroid_y",
+    "position" : 48,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129000,
+    "cachedContents" : {
+      "largest" : "42.1539790111379",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "42.0058138823863",
+        "count" : "1742"
+      }, {
+        "item" : "41.9538633187967",
+        "count" : "1680"
+      }, {
+        "item" : "42.0627997567443",
+        "count" : "1492"
+      }, {
+        "item" : "42.0577521536443",
+        "count" : "1422"
+      }, {
+        "item" : "41.8915275334477",
+        "count" : "1308"
+      }, {
+        "item" : "41.8765987689853",
+        "count" : "1286"
+      }, {
+        "item" : "42.1037757256336",
+        "count" : "1184"
+      }, {
+        "item" : "42.149457039264",
+        "count" : "1176"
+      }, {
+        "item" : "41.8888913326699",
+        "count" : "1157"
+      }, {
+        "item" : "42.1499246613162",
+        "count" : "1128"
+      }, {
+        "item" : "41.9495631515831",
+        "count" : "1127"
+      }, {
+        "item" : "42.0569842816275",
+        "count" : "1126"
+      }, {
+        "item" : "41.8849874951755",
+        "count" : "1104"
+      }, {
+        "item" : "42.0422696017296",
+        "count" : "1004"
+      }, {
+        "item" : "42.0639510842662",
+        "count" : "998"
+      }, {
+        "item" : "42.0973769673431",
+        "count" : "982"
+      }, {
+        "item" : "42.0577521506846",
+        "count" : "974"
+      }, {
+        "item" : "41.8936258582019",
+        "count" : "966"
+      }, {
+        "item" : "41.8585986873432",
+        "count" : "963"
+      }, {
+        "item" : "42.0142930762206",
+        "count" : "956"
+      } ],
+      "smallest" : "41.469834723317",
+      "cardinality" : "1145014"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593784,
+    "name" : "Census Tract",
+    "dataTypeName" : "text",
+    "description" : "Census tract identifier - full map available through the Census Bureau, https://www.census.gov/geo/maps-data/maps/2010ref/st17_tract.html",
+    "fieldName" : "tractce",
+    "position" : 49,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129003,
+    "cachedContents" : {
+      "largest" : "90300",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "330100",
+        "count" : "17649"
+      }, {
+        "item" : "804507",
+        "count" : "8258"
+      }, {
+        "item" : "81800",
+        "count" : "7875"
+      }, {
+        "item" : "320100",
+        "count" : "7727"
+      }, {
+        "item" : "804201",
+        "count" : "6723"
+      }, {
+        "item" : "81500",
+        "count" : "6696"
+      }, {
+        "item" : "804310",
+        "count" : "6584"
+      }, {
+        "item" : "803610",
+        "count" : "6350"
+      }, {
+        "item" : "802608",
+        "count" : "6337"
+      }, {
+        "item" : "833100",
+        "count" : "6055"
+      }, {
+        "item" : "801606",
+        "count" : "6044"
+      }, {
+        "item" : "804311",
+        "count" : "5883"
+      }, {
+        "item" : "804202",
+        "count" : "5796"
+      }, {
+        "item" : "804901",
+        "count" : "5774"
+      }, {
+        "item" : "806900",
+        "count" : "5705"
+      }, {
+        "item" : "804106",
+        "count" : "5612"
+      }, {
+        "item" : "806002",
+        "count" : "5476"
+      }, {
+        "item" : "804102",
+        "count" : "5364"
+      }, {
+        "item" : "770300",
+        "count" : "5342"
+      }, {
+        "item" : "805701",
+        "count" : "5175"
+      } ],
+      "smallest" : "100100",
+      "cardinality" : "1312"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593785,
+    "name" : "Total Building Square Feet",
+    "dataTypeName" : "number",
+    "description" : "This field applies to condominium properties (299) only. It is the sum of interior square feet of all units in the building.",
+    "fieldName" : "total_bldg_sf",
+    "position" : 50,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79128998,
+    "cachedContents" : {
+      "largest" : "105300",
+      "non_null" : "17234",
+      "null" : "1977874",
+      "top" : [ {
+        "item" : "97218",
+        "count" : "92"
+      }, {
+        "item" : "88751",
+        "count" : "84"
+      }, {
+        "item" : "2220",
+        "count" : "66"
+      }, {
+        "item" : "42584",
+        "count" : "42"
+      }, {
+        "item" : "2400",
+        "count" : "42"
+      }, {
+        "item" : "1560",
+        "count" : "38"
+      }, {
+        "item" : "2750",
+        "count" : "38"
+      }, {
+        "item" : "3120",
+        "count" : "30"
+      }, {
+        "item" : "2880",
+        "count" : "26"
+      }, {
+        "item" : "2200",
+        "count" : "26"
+      }, {
+        "item" : "4200",
+        "count" : "26"
+      }, {
+        "item" : "3444",
+        "count" : "24"
+      }, {
+        "item" : "9012",
+        "count" : "24"
+      }, {
+        "item" : "3180",
+        "count" : "23"
+      }, {
+        "item" : "3720",
+        "count" : "22"
+      }, {
+        "item" : "2688",
+        "count" : "22"
+      }, {
+        "item" : "3600",
+        "count" : "22"
+      }, {
+        "item" : "1760",
+        "count" : "22"
+      }, {
+        "item" : "5800",
+        "count" : "22"
+      }, {
+        "item" : "10451",
+        "count" : "21"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "3951"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593787,
+    "name" : "Multi Property Indicator",
+    "dataTypeName" : "number",
+    "description" : "Indicator for a property with mutiple improvements on one PIN, e.g. a main house and a coach house. NOT to be confused with a property which was part of a multi-pin sale.",
+    "fieldName" : "multi_ind",
+    "position" : 52,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129044,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1977874"
+      }, {
+        "item" : "1",
+        "count" : "17234"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593788,
+    "name" : "Property Address",
+    "dataTypeName" : "text",
+    "description" : "Property street address, not the address of the taxpayer. ",
+    "fieldName" : "addr",
+    "position" : 53,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129056,
+    "cachedContents" : {
+      "largest" : "ADDRESS MISSING FROM PROPLOCS",
+      "non_null" : "1991916",
+      "null" : "3192",
+      "top" : [ {
+        "item" : "655 W IRVING PARK RD",
+        "count" : "1679"
+      }, {
+        "item" : "505 N LAKE SHORE DR",
+        "count" : "1308"
+      }, {
+        "item" : "235 W VAN BUREN ST",
+        "count" : "1286"
+      }, {
+        "item" : "401 N WABASH AVE",
+        "count" : "1155"
+      }, {
+        "item" : "3660 N LAKE SHORE DR",
+        "count" : "1127"
+      }, {
+        "item" : "405 N WABASH AVE",
+        "count" : "1028"
+      }, {
+        "item" : "10 E ONTARIO ST",
+        "count" : "966"
+      }, {
+        "item" : "1720 S MICHIGAN AVE",
+        "count" : "963"
+      }, {
+        "item" : "130 N GARLAND CT",
+        "count" : "939"
+      }, {
+        "item" : "400 E RANDOLPH ST",
+        "count" : "934"
+      }, {
+        "item" : "300 N STATE ST",
+        "count" : "894"
+      }, {
+        "item" : "111 E CHESTNUT ST",
+        "count" : "890"
+      }, {
+        "item" : "474 N LAKE SHORE DR",
+        "count" : "877"
+      }, {
+        "item" : "4250 N MARINE DR",
+        "count" : "859"
+      }, {
+        "item" : "440 N WABASH AVE",
+        "count" : "850"
+      }, {
+        "item" : "340 E RANDOLPH ST",
+        "count" : "815"
+      }, {
+        "item" : "60 E MONROE ST",
+        "count" : "798"
+      }, {
+        "item" : "30 E HURON ST",
+        "count" : "741"
+      }, {
+        "item" : "155 N HARBOR DR",
+        "count" : "732"
+      }, {
+        "item" : "3550 N LAKE SHORE DR",
+        "count" : "725"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "1452076"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593789,
+    "name" : "Modeling Group",
+    "dataTypeName" : "text",
+    "description" : "Modeling group, as defined by the property class. Properties with class 200, 201, 241, 299 is defined as \"NCHARS\", short for \"no characteristics\", which are condos and vacant land classes.  Properties with class 202, 203, 204, 205, 206, 207, 208, 209, 210, 235, 278, and 295 are \"SF\", short for \"single-family.\"  Properties with class 211 and 212 are \"MF\", short for \"\"multi-family.\"",
+    "fieldName" : "modeling_group",
+    "position" : 54,
+    "renderTypeName" : "text",
+    "tableColumnId" : 79129053,
+    "cachedContents" : {
+      "largest" : "SF",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "SF",
+        "count" : "1213855"
+      }, {
+        "item" : "NCHARS",
+        "count" : "571586"
+      }, {
+        "item" : "MF",
+        "count" : "179266"
+      }, {
+        "item" : "FIXED",
+        "count" : "30401"
+      } ],
+      "smallest" : "FIXED",
+      "cardinality" : "4"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593790,
+    "name" : "Full Baths",
+    "dataTypeName" : "number",
+    "description" : "Number of full bathrooms, defined as having a bath or shower. If this value is missing, the default value is set to 1.",
+    "fieldName" : "fbath",
+    "position" : 55,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129004,
+    "cachedContents" : {
+      "largest" : "13",
+      "non_null" : "1509496",
+      "null" : "485612",
+      "top" : [ {
+        "item" : "1",
+        "count" : "807601"
+      }, {
+        "item" : "2",
+        "count" : "530544"
+      }, {
+        "item" : "3",
+        "count" : "114682"
+      }, {
+        "item" : "4",
+        "count" : "32275"
+      }, {
+        "item" : "6",
+        "count" : "14694"
+      }, {
+        "item" : "5",
+        "count" : "8307"
+      }, {
+        "item" : "7",
+        "count" : "589"
+      }, {
+        "item" : "8",
+        "count" : "371"
+      }, {
+        "item" : "10",
+        "count" : "259"
+      }, {
+        "item" : "9",
+        "count" : "62"
+      }, {
+        "item" : "0",
+        "count" : "39"
+      }, {
+        "item" : "12",
+        "count" : "38"
+      }, {
+        "item" : "11",
+        "count" : "33"
+      }, {
+        "item" : "13",
+        "count" : "2"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "14"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593791,
+    "name" : "Age",
+    "dataTypeName" : "number",
+    "description" : "Age of the property. If missing, this defaults to 10. This field is a combination of original age and effective age where original age refers to the oldest component of the building and effective age is a relative judgement due to renovations or other improvements. For instance, if a property is completely demolished and built up again, the age resets to 1. But if portions of the original structure are kept, it may be more complicated to determine the age.",
+    "fieldName" : "age",
+    "position" : 56,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79128999,
+    "cachedContents" : {
+      "largest" : "208",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "10",
+        "count" : "60807"
+      }, {
+        "item" : "62",
+        "count" : "43847"
+      }, {
+        "item" : "61",
+        "count" : "39770"
+      }, {
+        "item" : "63",
+        "count" : "39611"
+      }, {
+        "item" : "64",
+        "count" : "37510"
+      }, {
+        "item" : "19",
+        "count" : "36214"
+      }, {
+        "item" : "60",
+        "count" : "35633"
+      }, {
+        "item" : "16",
+        "count" : "35296"
+      }, {
+        "item" : "65",
+        "count" : "34944"
+      }, {
+        "item" : "59",
+        "count" : "31806"
+      }, {
+        "item" : "58",
+        "count" : "30780"
+      }, {
+        "item" : "48",
+        "count" : "30654"
+      }, {
+        "item" : "57",
+        "count" : "30134"
+      }, {
+        "item" : "13",
+        "count" : "29862"
+      }, {
+        "item" : "43",
+        "count" : "29750"
+      }, {
+        "item" : "47",
+        "count" : "29313"
+      }, {
+        "item" : "56",
+        "count" : "28668"
+      }, {
+        "item" : "66",
+        "count" : "28467"
+      }, {
+        "item" : "45",
+        "count" : "27621"
+      }, {
+        "item" : "46",
+        "count" : "27608"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "188"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593792,
+    "name" : "Use",
+    "dataTypeName" : "number",
+    "description" : "Use of property - 1 = single family, 2 = multi-family. If absent, default value is 1.",
+    "fieldName" : "use_1",
+    "position" : 57,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129021,
+    "cachedContents" : {
+      "largest" : "2",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1818396"
+      }, {
+        "item" : "2",
+        "count" : "176712"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593793,
+    "name" : "Number of Units",
+    "dataTypeName" : "number",
+    "description" : "For condos, the number of units in a building",
+    "fieldName" : "n_units",
+    "position" : 58,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129011,
+    "cachedContents" : {
+      "largest" : "1680",
+      "non_null" : "561222",
+      "null" : "1433886",
+      "top" : [ {
+        "item" : "6",
+        "count" : "15488"
+      }, {
+        "item" : "12",
+        "count" : "11676"
+      }, {
+        "item" : "3",
+        "count" : "10803"
+      }, {
+        "item" : "4",
+        "count" : "8572"
+      }, {
+        "item" : "24",
+        "count" : "8449"
+      }, {
+        "item" : "8",
+        "count" : "7800"
+      }, {
+        "item" : "16",
+        "count" : "7680"
+      }, {
+        "item" : "18",
+        "count" : "7002"
+      }, {
+        "item" : "48",
+        "count" : "5904"
+      }, {
+        "item" : "60",
+        "count" : "5700"
+      }, {
+        "item" : "120",
+        "count" : "5640"
+      }, {
+        "item" : "40",
+        "count" : "5440"
+      }, {
+        "item" : "96",
+        "count" : "4704"
+      }, {
+        "item" : "80",
+        "count" : "4640"
+      }, {
+        "item" : "20",
+        "count" : "4580"
+      }, {
+        "item" : "36",
+        "count" : "4428"
+      }, {
+        "item" : "9",
+        "count" : "4203"
+      }, {
+        "item" : "30",
+        "count" : "3840"
+      }, {
+        "item" : "32",
+        "count" : "3776"
+      }, {
+        "item" : "10",
+        "count" : "3720"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "463"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593794,
+    "name" : "Percent Ownership",
+    "dataTypeName" : "number",
+    "description" : "Percent of ownership of a condo building for a unit as defined by the condominium declaration. If missing, default is 1/n_units.",
+    "fieldName" : "per_ass",
+    "position" : 59,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129057,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "561224",
+      "null" : "1433884",
+      "top" : [ {
+        "item" : "0.25",
+        "count" : "3814"
+      }, {
+        "item" : "0.01",
+        "count" : "1298"
+      }, {
+        "item" : "0.0001",
+        "count" : "1273"
+      }, {
+        "item" : "0.125",
+        "count" : "934"
+      }, {
+        "item" : "0.005",
+        "count" : "892"
+      }, {
+        "item" : "0.00625",
+        "count" : "879"
+      }, {
+        "item" : "0.0003",
+        "count" : "862"
+      }, {
+        "item" : "0.5",
+        "count" : "797"
+      }, {
+        "item" : "0.05",
+        "count" : "757"
+      }, {
+        "item" : "0.2",
+        "count" : "674"
+      }, {
+        "item" : "0.1667",
+        "count" : "640"
+      }, {
+        "item" : "0.001",
+        "count" : "637"
+      }, {
+        "item" : "0.15",
+        "count" : "630"
+      }, {
+        "item" : "0.02",
+        "count" : "628"
+      }, {
+        "item" : "0.1",
+        "count" : "605"
+      }, {
+        "item" : "0.16",
+        "count" : "597"
+      }, {
+        "item" : "0.001689189189189189",
+        "count" : "592"
+      }, {
+        "item" : "0.00168918918918919",
+        "count" : "592"
+      }, {
+        "item" : "0.0025",
+        "count" : "575"
+      }, {
+        "item" : "0.3333",
+        "count" : "571"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "91321"
+    },
+    "format" : {
+      "precisionStyle" : "percentage",
+      "percentScale" : "1",
+      "precision" : "2"
+    }
+  }, {
+    "id" : 427593795,
+    "name" : "Condo Class Factor",
+    "dataTypeName" : "number",
+    "description" : "Factor variable for NCHARS modeling group. Divides  properties into two: Properties with class 200, 201, and 241 are given condo class factor as 200. Properties with class 299 are given condo class factor as 299",
+    "fieldName" : "condo_class_factor",
+    "position" : 60,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129017,
+    "cachedContents" : {
+      "largest" : "299",
+      "non_null" : "601987",
+      "null" : "1393121",
+      "top" : [ {
+        "item" : "299",
+        "count" : "561198"
+      }, {
+        "item" : "200",
+        "count" : "40789"
+      } ],
+      "smallest" : "200",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593796,
+    "name" : "Multi-Family Indicator",
+    "dataTypeName" : "number",
+    "description" : "Factor variable for MF modeling group. Properties with class 211 are given multi-family indicator as 211.  Properties with class 212 are given multi-family indicator as 212.",
+    "fieldName" : "multi_family_ind",
+    "position" : 61,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129041,
+    "cachedContents" : {
+      "largest" : "212",
+      "non_null" : "179266",
+      "null" : "1815842",
+      "top" : [ {
+        "item" : "211",
+        "count" : "164337"
+      }, {
+        "item" : "212",
+        "count" : "14929"
+      } ],
+      "smallest" : "211",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593797,
+    "name" : "Large Lot",
+    "dataTypeName" : "number",
+    "description" : "Large lot factor variable, where 1 acre of land (land square feet > 43559) is defined as a large lot. 1 = large lot, 0 = not a large lot. ",
+    "fieldName" : "large_lot",
+    "position" : 62,
+    "renderTypeName" : "number",
+    "tableColumnId" : 79129058,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "411323",
+      "null" : "1583785",
+      "top" : [ {
+        "item" : "0",
+        "count" : "324290"
+      }, {
+        "item" : "1",
+        "count" : "87033"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593909,
+    "name" : "Condition, Desirability and Utility",
+    "dataTypeName" : "text",
+    "description" : "about 20 different codes attached to the face sheet that denote a number of seemingly unrelated characteristics associated with a PIN, ranging from condition to types of subsidies.  This field does not match across the SQL server/AS-400 for 2018.\n",
+    "fieldName" : "condition_desirability_and_utility",
+    "position" : 63,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87229471,
+    "cachedContents" : {
+      "largest" : "VG",
+      "non_null" : "60209",
+      "null" : "1934899",
+      "top" : [ {
+        "item" : "GR",
+        "count" : "27410"
+      }, {
+        "item" : "AV",
+        "count" : "22915"
+      }, {
+        "item" : "AR",
+        "count" : "4672"
+      }, {
+        "item" : "GD",
+        "count" : "4355"
+      }, {
+        "item" : "EX",
+        "count" : "449"
+      }, {
+        "item" : "AX",
+        "count" : "235"
+      }, {
+        "item" : "LR",
+        "count" : "132"
+      }, {
+        "item" : "MH",
+        "count" : "26"
+      }, {
+        "item" : "AA",
+        "count" : "7"
+      }, {
+        "item" : "VG",
+        "count" : "4"
+      }, {
+        "item" : "LM",
+        "count" : "2"
+      }, {
+        "item" : "PX",
+        "count" : "1"
+      }, {
+        "item" : "SR",
+        "count" : "1"
+      } ],
+      "smallest" : "AA",
+      "cardinality" : "13"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593822,
+    "name" : "Deed Type",
+    "dataTypeName" : "text",
+    "description" : "",
+    "fieldName" : "deed_type",
+    "position" : 64,
+    "renderTypeName" : "text",
+    "tableColumnId" : 87229384,
+    "cachedContents" : {
+      "largest" : "W",
+      "non_null" : "112377",
+      "null" : "1882731",
+      "top" : [ {
+        "item" : "W",
+        "count" : "65970"
+      }, {
+        "item" : "O",
+        "count" : "33784"
+      }, {
+        "item" : "T",
+        "count" : "12623"
+      } ],
+      "smallest" : "O",
+      "cardinality" : "3"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593919,
+    "name" : "O'Hare Noise",
+    "dataTypeName" : "number",
+    "description" : "Indicator for the property under O'Hare approach flight path, within 1/4 mile.\n",
+    "fieldName" : "o_hare_noise",
+    "position" : 65,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229481,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1955862"
+      }, {
+        "item" : "1",
+        "count" : "35223"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593923,
+    "name" : "Floodplain",
+    "dataTypeName" : "number",
+    "description" : "Indicator for properties on a floodplain, defined as a FEMA Special Flood Hazard Area\n",
+    "fieldName" : "floodplain",
+    "position" : 66,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229485,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1895251"
+      }, {
+        "item" : "1",
+        "count" : "95834"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593929,
+    "name" : "Near Major Road",
+    "dataTypeName" : "number",
+    "description" : "Indicates whether the property is within 300 ft of a major road.\n",
+    "fieldName" : "near_major_road",
+    "position" : 67,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229491,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1586234"
+      }, {
+        "item" : "1",
+        "count" : "404851"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593873,
+    "name" : "Total Units",
+    "dataTypeName" : "number",
+    "description" : "For condos, the number of both residential and non-residential units in a building\n",
+    "fieldName" : "total_units",
+    "position" : 68,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229435,
+    "cachedContents" : {
+      "largest" : "1680",
+      "non_null" : "1994928",
+      "null" : "180",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1433833"
+      }, {
+        "item" : "6",
+        "count" : "14883"
+      }, {
+        "item" : "12",
+        "count" : "11608"
+      }, {
+        "item" : "3",
+        "count" : "9981"
+      }, {
+        "item" : "4",
+        "count" : "9276"
+      }, {
+        "item" : "24",
+        "count" : "8511"
+      }, {
+        "item" : "8",
+        "count" : "7764"
+      }, {
+        "item" : "16",
+        "count" : "7659"
+      }, {
+        "item" : "18",
+        "count" : "6889"
+      }, {
+        "item" : "60",
+        "count" : "5780"
+      }, {
+        "item" : "48",
+        "count" : "5758"
+      }, {
+        "item" : "120",
+        "count" : "5726"
+      }, {
+        "item" : "40",
+        "count" : "5465"
+      }, {
+        "item" : "20",
+        "count" : "4716"
+      }, {
+        "item" : "96",
+        "count" : "4680"
+      }, {
+        "item" : "80",
+        "count" : "4560"
+      }, {
+        "item" : "36",
+        "count" : "4481"
+      }, {
+        "item" : "9",
+        "count" : "4160"
+      }, {
+        "item" : "30",
+        "count" : "4099"
+      }, {
+        "item" : "10",
+        "count" : "3834"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "468"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593798,
+    "name" : "Condo Strata",
+    "dataTypeName" : "number",
+    "description" : "For condominiums, shows the decile of mean unit market value a condominimum building is\n",
+    "fieldName" : "condo_strata",
+    "position" : 69,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229360,
+    "cachedContents" : {
+      "largest" : "10",
+      "non_null" : "319158",
+      "null" : "1675950",
+      "top" : [ {
+        "item" : "1",
+        "count" : "61802"
+      }, {
+        "item" : "7",
+        "count" : "36955"
+      }, {
+        "item" : "5",
+        "count" : "32121"
+      }, {
+        "item" : "8",
+        "count" : "30612"
+      }, {
+        "item" : "6",
+        "count" : "29763"
+      }, {
+        "item" : "4",
+        "count" : "28389"
+      }, {
+        "item" : "9",
+        "count" : "27840"
+      }, {
+        "item" : "3",
+        "count" : "26753"
+      }, {
+        "item" : "2",
+        "count" : "24647"
+      }, {
+        "item" : "10",
+        "count" : "20276"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "10"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593940,
+    "name" : "Age Squared",
+    "dataTypeName" : "number",
+    "description" : "Age Squared\n",
+    "fieldName" : "age_squared",
+    "position" : 77,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229502,
+    "cachedContents" : {
+      "largest" : "43264",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "100",
+        "count" : "60807"
+      }, {
+        "item" : "3844",
+        "count" : "43847"
+      }, {
+        "item" : "3721",
+        "count" : "39770"
+      }, {
+        "item" : "3969",
+        "count" : "39611"
+      }, {
+        "item" : "4096",
+        "count" : "37510"
+      }, {
+        "item" : "361",
+        "count" : "36214"
+      }, {
+        "item" : "3600",
+        "count" : "35633"
+      }, {
+        "item" : "256",
+        "count" : "35296"
+      }, {
+        "item" : "4225",
+        "count" : "34944"
+      }, {
+        "item" : "3481",
+        "count" : "31806"
+      }, {
+        "item" : "3364",
+        "count" : "30780"
+      }, {
+        "item" : "2304",
+        "count" : "30654"
+      }, {
+        "item" : "3249",
+        "count" : "30134"
+      }, {
+        "item" : "169",
+        "count" : "29862"
+      }, {
+        "item" : "1849",
+        "count" : "29750"
+      }, {
+        "item" : "2209",
+        "count" : "29313"
+      }, {
+        "item" : "3136",
+        "count" : "28668"
+      }, {
+        "item" : "4356",
+        "count" : "28467"
+      }, {
+        "item" : "2025",
+        "count" : "27621"
+      }, {
+        "item" : "2116",
+        "count" : "27608"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "188"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593837,
+    "name" : "Age Decade",
+    "dataTypeName" : "number",
+    "description" : "Age in decades\n",
+    "fieldName" : "age_decade",
+    "position" : 78,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229399,
+    "cachedContents" : {
+      "largest" : "20.8",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "60807"
+      }, {
+        "item" : "6.2",
+        "count" : "43847"
+      }, {
+        "item" : "6.1",
+        "count" : "39770"
+      }, {
+        "item" : "6.3",
+        "count" : "39611"
+      }, {
+        "item" : "6.4",
+        "count" : "37510"
+      }, {
+        "item" : "1.9",
+        "count" : "36214"
+      }, {
+        "item" : "6",
+        "count" : "35633"
+      }, {
+        "item" : "1.6",
+        "count" : "35296"
+      }, {
+        "item" : "6.5",
+        "count" : "34944"
+      }, {
+        "item" : "5.9",
+        "count" : "31806"
+      }, {
+        "item" : "5.8",
+        "count" : "30780"
+      }, {
+        "item" : "4.8",
+        "count" : "30654"
+      }, {
+        "item" : "5.7",
+        "count" : "30134"
+      }, {
+        "item" : "1.3",
+        "count" : "29862"
+      }, {
+        "item" : "4.3",
+        "count" : "29750"
+      }, {
+        "item" : "4.7",
+        "count" : "29313"
+      }, {
+        "item" : "5.6",
+        "count" : "28668"
+      }, {
+        "item" : "6.6",
+        "count" : "28467"
+      }, {
+        "item" : "4.5",
+        "count" : "27621"
+      }, {
+        "item" : "4.6",
+        "count" : "27608"
+      } ],
+      "smallest" : "0.1",
+      "cardinality" : "188"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593937,
+    "name" : "Age Decade Squared",
+    "dataTypeName" : "number",
+    "description" : "Age in decades squared\n",
+    "fieldName" : "age_decade_squared",
+    "position" : 79,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229499,
+    "cachedContents" : {
+      "largest" : "432.64",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "1",
+        "count" : "60807"
+      }, {
+        "item" : "39.69",
+        "count" : "39611"
+      }, {
+        "item" : "3.61",
+        "count" : "36214"
+      }, {
+        "item" : "36",
+        "count" : "35633"
+      }, {
+        "item" : "42.25",
+        "count" : "34944"
+      }, {
+        "item" : "34.81",
+        "count" : "31806"
+      }, {
+        "item" : "38.44",
+        "count" : "31803"
+      }, {
+        "item" : "40.96",
+        "count" : "31121"
+      }, {
+        "item" : "33.64",
+        "count" : "30780"
+      }, {
+        "item" : "23.04",
+        "count" : "30654"
+      }, {
+        "item" : "32.49",
+        "count" : "30134"
+      }, {
+        "item" : "18.49",
+        "count" : "29750"
+      }, {
+        "item" : "37.21",
+        "count" : "28566"
+      }, {
+        "item" : "20.25",
+        "count" : "27621"
+      }, {
+        "item" : "30.25",
+        "count" : "26722"
+      }, {
+        "item" : "28.09",
+        "count" : "26466"
+      }, {
+        "item" : "2.56",
+        "count" : "25955"
+      }, {
+        "item" : "1.44",
+        "count" : "25796"
+      }, {
+        "item" : "1.69",
+        "count" : "24630"
+      }, {
+        "item" : "44.89",
+        "count" : "24598"
+      } ],
+      "smallest" : "0.01",
+      "cardinality" : "266"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593941,
+    "name" : "Lot Size Squared",
+    "dataTypeName" : "number",
+    "description" : "Lot Size Squared\n",
+    "fieldName" : "lot_size_squared",
+    "position" : 82,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229503,
+    "cachedContents" : {
+      "largest" : "60119553542400",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "9765625",
+        "count" : "60391"
+      }, {
+        "item" : "14062500",
+        "count" : "52727"
+      }, {
+        "item" : "14288400",
+        "count" : "25820"
+      }, {
+        "item" : "13838400",
+        "count" : "21351"
+      }, {
+        "item" : "9922500",
+        "count" : "18035"
+      }, {
+        "item" : "39062500",
+        "count" : "17572"
+      }, {
+        "item" : "9610000",
+        "count" : "16952"
+      }, {
+        "item" : "56250000",
+        "count" : "15778"
+      }, {
+        "item" : "43560000",
+        "count" : "15267"
+      }, {
+        "item" : "9000000",
+        "count" : "14255"
+      }, {
+        "item" : "25000000",
+        "count" : "13070"
+      }, {
+        "item" : "19140625",
+        "count" : "8379"
+      }, {
+        "item" : "17015625",
+        "count" : "7994"
+      }, {
+        "item" : "21967969",
+        "count" : "7921"
+      }, {
+        "item" : "13616100",
+        "count" : "7874"
+      }, {
+        "item" : "44222500",
+        "count" : "7588"
+      }, {
+        "item" : "51840000",
+        "count" : "7251"
+      }, {
+        "item" : "60840000",
+        "count" : "7101"
+      }, {
+        "item" : "76562500",
+        "count" : "7030"
+      }, {
+        "item" : "24601600",
+        "count" : "6779"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "34169"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593803,
+    "name" : "Improvement Size Squared",
+    "dataTypeName" : "number",
+    "description" : "Building square feet, squared\n",
+    "fieldName" : "improvement_size_squared",
+    "position" : 83,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229365,
+    "cachedContents" : {
+      "largest" : "619213456",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "1440000",
+        "count" : "6540"
+      }, {
+        "item" : "1016064",
+        "count" : "6200"
+      }, {
+        "item" : "1081600",
+        "count" : "5870"
+      }, {
+        "item" : "1166400",
+        "count" : "5714"
+      }, {
+        "item" : "921600",
+        "count" : "5628"
+      }, {
+        "item" : "1557504",
+        "count" : "5340"
+      }, {
+        "item" : "1327104",
+        "count" : "5243"
+      }, {
+        "item" : "1115136",
+        "count" : "4579"
+      }, {
+        "item" : "1254400",
+        "count" : "4157"
+      }, {
+        "item" : "1218816",
+        "count" : "4102"
+      }, {
+        "item" : "746496",
+        "count" : "4010"
+      }, {
+        "item" : "1382976",
+        "count" : "3615"
+      }, {
+        "item" : "1210000",
+        "count" : "3390"
+      }, {
+        "item" : "1192464",
+        "count" : "3343"
+      }, {
+        "item" : "1000000",
+        "count" : "3243"
+      }, {
+        "item" : "1679616",
+        "count" : "3200"
+      }, {
+        "item" : "1806336",
+        "count" : "3029"
+      }, {
+        "item" : "2073600",
+        "count" : "2917"
+      }, {
+        "item" : "1742400",
+        "count" : "2851"
+      }, {
+        "item" : "1587600",
+        "count" : "2834"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "9153"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593850,
+    "name" : "Location Factor",
+    "dataTypeName" : "number",
+    "description" : "Calculated from a geographically weighted regression. Captures the relationship between home value and geographic location.\n",
+    "fieldName" : "location_factor",
+    "position" : 85,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229412,
+    "cachedContents" : {
+      "largest" : "5.13930040353934",
+      "non_null" : "1991085",
+      "null" : "4023",
+      "top" : [ {
+        "item" : "1.35908228338215",
+        "count" : "1680"
+      }, {
+        "item" : "0.6609310016428",
+        "count" : "1308"
+      }, {
+        "item" : "1.50559918655626",
+        "count" : "1286"
+      }, {
+        "item" : "1.33406612301793",
+        "count" : "1157"
+      }, {
+        "item" : "1.45960035147697",
+        "count" : "1127"
+      }, {
+        "item" : "0.945322095836696",
+        "count" : "1104"
+      }, {
+        "item" : "1.37352433336343",
+        "count" : "966"
+      }, {
+        "item" : "1.16052648059197",
+        "count" : "963"
+      }, {
+        "item" : "1.30846099499117",
+        "count" : "939"
+      }, {
+        "item" : "1.41355679069727",
+        "count" : "894"
+      }, {
+        "item" : "0.782291798892586",
+        "count" : "877"
+      }, {
+        "item" : "0.924802992839372",
+        "count" : "871"
+      }, {
+        "item" : "0.6638704822440229",
+        "count" : "871"
+      }, {
+        "item" : "1.15602947489758",
+        "count" : "861"
+      }, {
+        "item" : "1.37377218457532",
+        "count" : "850"
+      }, {
+        "item" : "1.03816348989693",
+        "count" : "815"
+      }, {
+        "item" : "1.30179611351541",
+        "count" : "798"
+      }, {
+        "item" : "0.875035918247042",
+        "count" : "768"
+      }, {
+        "item" : "0.95832229603706",
+        "count" : "756"
+      }, {
+        "item" : "1.01305707553028",
+        "count" : "755"
+      } ],
+      "smallest" : "-0.858601251459062",
+      "cardinality" : "1443407"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593933,
+    "name" : "Garage indicator",
+    "dataTypeName" : "number",
+    "description" : "Indicates presence of a garage of any size.\n",
+    "fieldName" : "garage_indicator",
+    "position" : 89,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229495,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "1",
+        "count" : "1177185"
+      }, {
+        "item" : "0",
+        "count" : "215906"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593804,
+    "name" : "Residential share of building",
+    "dataTypeName" : "number",
+    "description" : "A sum of \"percent of ownership\" that only includes residential units within a condo building.\n",
+    "fieldName" : "residential_share_of_building",
+    "position" : 91,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229366,
+    "cachedContents" : {
+      "largest" : "1.1862",
+      "non_null" : "561224",
+      "null" : "1433884",
+      "top" : [ {
+        "item" : "1",
+        "count" : "293668"
+      }, {
+        "item" : "0.9999",
+        "count" : "3838"
+      }, {
+        "item" : "0.999998",
+        "count" : "2798"
+      }, {
+        "item" : "1.0000002",
+        "count" : "2673"
+      }, {
+        "item" : "1.0002",
+        "count" : "2646"
+      }, {
+        "item" : "0.99995",
+        "count" : "2520"
+      }, {
+        "item" : "1.0001",
+        "count" : "2191"
+      }, {
+        "item" : "0.9997",
+        "count" : "2059"
+      }, {
+        "item" : "1.000001",
+        "count" : "1962"
+      }, {
+        "item" : "0.99999",
+        "count" : "1946"
+      }, {
+        "item" : "1.00002",
+        "count" : "1809"
+      }, {
+        "item" : "1.0000012",
+        "count" : "1787"
+      }, {
+        "item" : "0.9998056",
+        "count" : "1742"
+      }, {
+        "item" : "0.9994",
+        "count" : "1727"
+      }, {
+        "item" : "0.996392",
+        "count" : "1680"
+      }, {
+        "item" : "0.99997",
+        "count" : "1599"
+      }, {
+        "item" : "0.999996",
+        "count" : "1459"
+      }, {
+        "item" : "0.999999",
+        "count" : "1458"
+      }, {
+        "item" : "0.999",
+        "count" : "1403"
+      }, {
+        "item" : "1.000002",
+        "count" : "1372"
+      } ],
+      "smallest" : "0.0032",
+      "cardinality" : "1592"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593840,
+    "name" : "Pure Market Sale",
+    "dataTypeName" : "number",
+    "description" : "Indicator for pure market sale\n",
+    "fieldName" : "pure_market_sale",
+    "position" : 92,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229402,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1908583"
+      }, {
+        "item" : "1",
+        "count" : "86525"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593833,
+    "name" : "Pure Market Filter",
+    "dataTypeName" : "number",
+    "description" : "Indicator for pure market sale\n",
+    "fieldName" : "pure_market_filter",
+    "position" : 93,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229395,
+    "cachedContents" : {
+      "largest" : "1",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "0",
+        "count" : "1908583"
+      }, {
+        "item" : "1",
+        "count" : "86525"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "2"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593943,
+    "name" : "Neigborhood Code (mapping)",
+    "dataTypeName" : "number",
+    "description" : "Unmodified neighborhood code that can be used for mapping.\n",
+    "fieldName" : "neigborhood_code_mapping_",
+    "position" : 94,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229505,
+    "cachedContents" : {
+      "largest" : "999",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "30",
+        "count" : "110964"
+      }, {
+        "item" : "10",
+        "count" : "92851"
+      }, {
+        "item" : "70",
+        "count" : "71885"
+      }, {
+        "item" : "50",
+        "count" : "71720"
+      }, {
+        "item" : "31",
+        "count" : "70803"
+      }, {
+        "item" : "80",
+        "count" : "68799"
+      }, {
+        "item" : "40",
+        "count" : "61325"
+      }, {
+        "item" : "11",
+        "count" : "59680"
+      }, {
+        "item" : "20",
+        "count" : "55846"
+      }, {
+        "item" : "60",
+        "count" : "54603"
+      }, {
+        "item" : "22",
+        "count" : "51621"
+      }, {
+        "item" : "12",
+        "count" : "48860"
+      }, {
+        "item" : "81",
+        "count" : "44742"
+      }, {
+        "item" : "120",
+        "count" : "40654"
+      }, {
+        "item" : "150",
+        "count" : "38036"
+      }, {
+        "item" : "100",
+        "count" : "36028"
+      }, {
+        "item" : "13",
+        "count" : "34539"
+      }, {
+        "item" : "90",
+        "count" : "29574"
+      }, {
+        "item" : "51",
+        "count" : "27987"
+      }, {
+        "item" : "101",
+        "count" : "27701"
+      } ],
+      "smallest" : "10",
+      "cardinality" : "199"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593936,
+    "name" : "Square root of lot size",
+    "dataTypeName" : "number",
+    "description" : "Square root of lot size\n",
+    "fieldName" : "square_root_of_lot_size",
+    "position" : 97,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229498,
+    "cachedContents" : {
+      "largest" : "2784.54305048423",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "55.9016994374947",
+        "count" : "58867"
+      }, {
+        "item" : "61.2372435695795",
+        "count" : "50626"
+      }, {
+        "item" : "61.4817045957576",
+        "count" : "25320"
+      }, {
+        "item" : "60.9918027279076",
+        "count" : "19764"
+      }, {
+        "item" : "56.1248608016091",
+        "count" : "17713"
+      }, {
+        "item" : "55.6776436283002",
+        "count" : "15803"
+      }, {
+        "item" : "79.0569415042095",
+        "count" : "14467"
+      }, {
+        "item" : "54.7722557505166",
+        "count" : "13796"
+      }, {
+        "item" : "86.6025403784439",
+        "count" : "11980"
+      }, {
+        "item" : "70.7106781186548",
+        "count" : "11483"
+      }, {
+        "item" : "81.2403840463596",
+        "count" : "10714"
+      }, {
+        "item" : "68.461668107051",
+        "count" : "7912"
+      }, {
+        "item" : "66.1437827766148",
+        "count" : "7657"
+      }, {
+        "item" : "64.2261628933257",
+        "count" : "7404"
+      }, {
+        "item" : "84.8528137423857",
+        "count" : "7251"
+      }, {
+        "item" : "60.7453701939498",
+        "count" : "6580"
+      }, {
+        "item" : "81.8535277187245",
+        "count" : "6530"
+      }, {
+        "item" : "100",
+        "count" : "6247"
+      }, {
+        "item" : "81.5475321515004",
+        "count" : "5937"
+      }, {
+        "item" : "70.427267446636",
+        "count" : "5402"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "59024"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593935,
+    "name" : "Square root of age",
+    "dataTypeName" : "number",
+    "description" : "Square root of age of improvement\n",
+    "fieldName" : "square_root_of_age",
+    "position" : 98,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229497,
+    "cachedContents" : {
+      "largest" : "14.422205101856",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "3.16227766016838",
+        "count" : "50420"
+      }, {
+        "item" : "8",
+        "count" : "37510"
+      }, {
+        "item" : "4",
+        "count" : "35296"
+      }, {
+        "item" : "8.06225774829855",
+        "count" : "34944"
+      }, {
+        "item" : "7.93725393319377",
+        "count" : "32116"
+      }, {
+        "item" : "7.87400787401181",
+        "count" : "31803"
+      }, {
+        "item" : "7.54983443527075",
+        "count" : "30134"
+      }, {
+        "item" : "6.557438524302",
+        "count" : "29750"
+      }, {
+        "item" : "4.35889894354067",
+        "count" : "29395"
+      }, {
+        "item" : "7.81024967590665",
+        "count" : "28566"
+      }, {
+        "item" : "8.12403840463596",
+        "count" : "28467"
+      }, {
+        "item" : "7.14142842854285",
+        "count" : "27521"
+      }, {
+        "item" : "6.6332495807108",
+        "count" : "26145"
+      }, {
+        "item" : "7.74596669241483",
+        "count" : "25231"
+      }, {
+        "item" : "3.60555127546399",
+        "count" : "24630"
+      }, {
+        "item" : "8.18535277187245",
+        "count" : "24598"
+      }, {
+        "item" : "7",
+        "count" : "24027"
+      }, {
+        "item" : "9.74679434480896",
+        "count" : "22994"
+      }, {
+        "item" : "3.46410161513775",
+        "count" : "22510"
+      }, {
+        "item" : "3.3166247903554",
+        "count" : "22421"
+      } ],
+      "smallest" : "1",
+      "cardinality" : "323"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593805,
+    "name" : "Square root of improvement size",
+    "dataTypeName" : "number",
+    "description" : "Square root of improvement size\n",
+    "fieldName" : "square_root_of_improvement_size",
+    "position" : 99,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229367,
+    "cachedContents" : {
+      "largest" : "157.746632293688",
+      "non_null" : "1393091",
+      "null" : "602017",
+      "top" : [ {
+        "item" : "32.2490309931942",
+        "count" : "5870"
+      }, {
+        "item" : "34.6410161513775",
+        "count" : "5695"
+      }, {
+        "item" : "31.7490157327751",
+        "count" : "5653"
+      }, {
+        "item" : "30.9838667696593",
+        "count" : "5202"
+      }, {
+        "item" : "32.86335345031",
+        "count" : "4810"
+      }, {
+        "item" : "33.9411254969543",
+        "count" : "4393"
+      }, {
+        "item" : "32.4961536185438",
+        "count" : "4186"
+      }, {
+        "item" : "33.2264954516723",
+        "count" : "4102"
+      }, {
+        "item" : "35.3270434653114",
+        "count" : "3856"
+      }, {
+        "item" : "33.466401061363",
+        "count" : "3578"
+      }, {
+        "item" : "29.3938769133981",
+        "count" : "3438"
+      }, {
+        "item" : "33.166247903554",
+        "count" : "3390"
+      }, {
+        "item" : "36",
+        "count" : "3200"
+      }, {
+        "item" : "36.3318042491699",
+        "count" : "2851"
+      }, {
+        "item" : "35.4964786985977",
+        "count" : "2834"
+      }, {
+        "item" : "34.2928563989645",
+        "count" : "2817"
+      }, {
+        "item" : "31.6227766016838",
+        "count" : "2790"
+      }, {
+        "item" : "33.0454232837166",
+        "count" : "2630"
+      }, {
+        "item" : "30.199337741083",
+        "count" : "2563"
+      }, {
+        "item" : "34.9857113690718",
+        "count" : "2497"
+      } ],
+      "smallest" : "0",
+      "cardinality" : "15212"
+    },
+    "format" : { }
+  }, {
+    "id" : 427593916,
+    "name" : "Town and Neighborhood",
+    "dataTypeName" : "number",
+    "description" : "Combination of town and neighborhood used to uniquely neighborhoods across townships.\n",
+    "fieldName" : "town_and_neighborhood",
+    "position" : 110,
+    "renderTypeName" : "number",
+    "tableColumnId" : 87229478,
+    "cachedContents" : {
+      "largest" : "77170",
+      "non_null" : "1995108",
+      "null" : "0",
+      "top" : [ {
+        "item" : "7430",
+        "count" : "29972"
+      }, {
+        "item" : "2431",
+        "count" : "28771"
+      }, {
+        "item" : "7422",
+        "count" : "23049"
+      }, {
+        "item" : "2481",
+        "count" : "21500"
+      }, {
+        "item" : "77131",
+        "count" : "19069"
+      }, {
+        "item" : "7610",
+        "count" : "18526"
+      }, {
+        "item" : "2970",
+        "count" : "16329"
+      }, {
+        "item" : "2250",
+        "count" : "15532"
+      }, {
+        "item" : "7611",
+        "count" : "15378"
+      }, {
+        "item" : "7230",
+        "count" : "14762"
+      }, {
+        "item" : "72380",
+        "count" : "14487"
+      }, {
+        "item" : "2610",
+        "count" : "13996"
+      }, {
+        "item" : "7331",
+        "count" : "13857"
+      }, {
+        "item" : "2080",
+        "count" : "13358"
+      }, {
+        "item" : "3540",
+        "count" : "13296"
+      }, {
+        "item" : "7412",
+        "count" : "12758"
+      }, {
+        "item" : "22180",
+        "count" : "12367"
+      }, {
+        "item" : "7360",
+        "count" : "11573"
+      }, {
+        "item" : "3840",
+        "count" : "11503"
+      }, {
+        "item" : "2960",
+        "count" : "11311"
+      } ],
+      "smallest" : "1011",
+      "cardinality" : "852"
+    },
+    "format" : {
+      "noCommas" : "true"
+    }
+  } ],
+  "grants" : [ {
+    "inherited" : false,
+    "type" : "viewer",
+    "flags" : [ "public" ]
+  } ],
+  "metadata" : {
+    "custom_fields" : {
+      "Department" : {
+        "Publishing Department" : "Cook County Assessor's Office"
+      },
+      "Metadata" : {
+        "Update Frequency" : "Yearly"
+      }
+    },
+    "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+  },
+  "owner" : {
+    "id" : "s6b5-uz7b",
+    "displayName" : "Cook County Assessor's Office Data & Modeling Department",
+    "profileImageUrlLarge" : "/api/users/s6b5-uz7b/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/s6b5-uz7b/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/s6b5-uz7b/profile_images/TINY",
+    "screenName" : "Cook County Assessor's Office Data & Modeling Department",
+    "type" : "interactive",
+    "userSegment" : "site_member",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "query" : { },
+  "rights" : [ "read" ],
+  "tableAuthor" : {
+    "id" : "s6b5-uz7b",
+    "displayName" : "Cook County Assessor's Office Data & Modeling Department",
+    "profileImageUrlLarge" : "/api/users/s6b5-uz7b/profile_images/LARGE",
+    "profileImageUrlMedium" : "/api/users/s6b5-uz7b/profile_images/THUMB",
+    "profileImageUrlSmall" : "/api/users/s6b5-uz7b/profile_images/TINY",
+    "screenName" : "Cook County Assessor's Office Data & Modeling Department",
+    "type" : "interactive",
+    "userSegment" : "site_member",
+    "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+  },
+  "tags" : [ "cook county assessor", "tax", "property" ],
+  "flags" : [ "default", "restorable", "restorePossibleForType" ]
+}
